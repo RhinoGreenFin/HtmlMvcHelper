@@ -1,0 +1,56 @@
+﻿@model Examples.Models.SampleModel
+
+@{
+    ViewBag.Title = "Examples";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using System.Drawing
+@using Examples.Models
+@using Sample.Web.Mvc.UI
+
+<style type="text/css">
+    .QuarterView {
+        top: 25%;
+        left: 25%;
+        position: fixed;
+    }
+</style>  
+
+<script>
+    function onLoad() {
+        console.log("I have loaded");
+    }
+
+    function onToggle(event) {
+        console.log(event);
+    }
+
+    function onSwitchOff(event) {
+        console.log("Switch Off");
+    }
+
+    function onSwitchOn(event) {
+        console.log("Switch On");
+    }
+</script>
+
+
+@using (Html.BeginForm())
+{
+
+
+
+}
+
+@(Html.Sample()
+          .ToggleClickFor<SampleModel>(x => Model.SubClass.BooleanSubProperty)
+          .ID("SampleID")
+          .ClientEvents(x =>
+          {
+              x.OnLoad("onLoad");
+              x.Toggle("onToggle");
+              x.OnSwitchOff("onSwitchOff");
+              x.OnSwitchOn("onSwitchOn");
+          })
+          .OffLabel("OFF")
+          .OnLabel("ON"))

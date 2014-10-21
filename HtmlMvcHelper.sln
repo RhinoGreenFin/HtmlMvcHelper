@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlMvcHelper", "HtmlMvcHelper\HtmlMvcHelper.csproj", "{0061E673-DB64-48DE-B31F-8AA150C51C48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{C5C8841B-2C23-4DA0-B674-D790D6C2FEF5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0061E673-DB64-48DE-B31F-8AA150C51C48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0061E673-DB64-48DE-B31F-8AA150C51C48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0061E673-DB64-48DE-B31F-8AA150C51C48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0061E673-DB64-48DE-B31F-8AA150C51C48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5C8841B-2C23-4DA0-B674-D790D6C2FEF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5C8841B-2C23-4DA0-B674-D790D6C2FEF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5C8841B-2C23-4DA0-B674-D790D6C2FEF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5C8841B-2C23-4DA0-B674-D790D6C2FEF5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,21 @@
+﻿/* Global */
+.clear-fix { clear: both; }
+
+.sa-loading {
+    background-image: url('preloader_large.gif');
+    background-repeat: no-repeat;
+    background-position:center; 
+}
+
+.sa-loading-large {
+    background-image: url('preloader_large.gif');
+    background-repeat: no-repeat;
+    background-position:center; 
+}
+
+.sa-widget { }
+
+/* States */
+.sa-state-hidden  { display: none !important; }
+.sa-state-selected { }
+.sa-state-disabled { }
